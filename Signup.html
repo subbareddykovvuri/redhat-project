@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Signup</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="row" style="margin-top: 50px;">
+    <div class="col-md-4"></div>
+    <div class="col-md-4" style="border: 1px solid blue;border-radius: 10px;">
+    <form action="/action_page.php" class="form-group" >
+      <h3 style="text-align: center;margin-top: 10px;font-weight: bold;">Sign Up</h3>
+    <label style="margin-top: 10px;">Name:</label>
+    <input type="text" class="form-control" id="name">
+    <label style="margin-top: 10px;">Email:</label>
+    <input type="email" class="form-control" id="email">
+    <label style="margin-top: 10px;">Roll Number:</label>
+    <input type="text" class="form-control" id="rollno">
+    <label style="margin-top: 10px;">Password:</label>
+    <input type="password" class="form-control" id="pwd"><br>
+    <label style="margin-top: 10px;">Gender:</label>
+    <input type="radio" class="class-custom" name="gender" style="margin-left: 10px;">Male
+    <input type="radio" name="gender" style="margin-left: 10px;">Female
+
+    <br>
+    <label style="margin-top: 10px;" >College:</label>
+    <select class="form-control">
+      <option>Select</option>
+      <option>AEC</option>
+      <option>ACET</option>
+      <option>ACOE</option>
+    </select>
+    <br>
+    <label  >Branch:</label><br>
+    <select  class="form-control">
+      <option>Select</option>
+      <option>CSE</option>
+      <option>ECE</option>
+      <option>IT</option>
+      <option>MECH</option>
+      <option>CIVIL</option>
+    </select>
+    <br>
+    <a href="login.html" style="text-decoration: none;color: black;margin-top: 10px;" ><p>Already have an account</p> </a>
+    
+  <button type="submit" class="btn btn-primary" style="margin-top: 10px;width: 100%">Sign Up</button>
+  </form>
+  </div>
+  <div class="col-md-4">
+    
+  </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
